@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <filter id="subtle-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Left Side: EXAM Box with Top & Bottom Deep Sky Blue Bars -->
+  <!-- Top Blue Bar -->
+  <rect x="50" y="32" width="220" height="11" rx="2" fill="#009fe3" />
+  
+  <!-- "exam" styled typography in Deep Sky Blue -->
+  <g fill="#009fe3" transform="translate(52, 48)">
+    <!-- e -->
+    <path d="M 12 60 C 12 40 26 28 42 28 C 58 28 68 40 68 56 C 68 60 67 63 65 65 L 24 65 C 25 76 33 82 43 82 C 50 82 56 78 60 72 L 67 76 C 61 85 52 91 41 91 C 24 91 12 78 12 60 Z M 24 57 L 57 57 C 56 46 50 37 41 37 C 32 37 26 46 24 57 Z" />
+    <!-- x -->
+    <path d="M 78 30 L 91 30 L 104 53 L 117 30 L 130 30 L 111 60 L 132 90 L 118 90 L 104 67 L 90 90 L 76 90 L 97 60 Z" />
+    <!-- a -->
+    <path d="M 140 63 C 140 45 152 35 167 35 C 176 35 183 39 187 45 L 187 37 L 198 37 L 198 89 L 188 89 L 188 82 C 184 87 177 91 168 91 C 153 91 140 79 140 63 Z M 188 62 C 188 50 180 43 170 43 C 160 43 152 51 152 63 C 152 74 160 82 170 82 C 180 82 188 74 188 62 Z" />
+    <!-- m -->
+    <path d="M 207 37 L 218 37 L 218 46 C 222 40 229 35 238 35 C 247 35 253 40 256 47 C 261 40 269 35 278 35 C 291 35 298 44 298 60 L 298 89 L 287 89 L 287 63 C 287 51 283 44 274 44 C 266 44 261 51 261 63 L 261 89 L 250 89 L 250 63 C 250 51 246 44 237 44 C 229 44 224 51 224 63 L 224 89 L 213 89 L 213 37 Z" transform="scale(0.85) translate(40, 10)" />
+  </g>
+
+  <!-- Bottom Blue Bar -->
+  <rect x="50" y="142" width="220" height="11" rx="2" fill="#009fe3" />
+  
+  <!-- Right Side: Vibrant Orange Block -->
+  <rect x="282" y="32" width="468" height="121" rx="3" fill="#f25f22" />
+  
+  <!-- "FRIENDLY" in White bold brush script -->
+  <text x="516" y="118" 
+        text-anchor="middle" 
+        font-family="'Caveat', 'Patrick Hand', 'Permanent Marker', 'Comic Sans MS', cursive, sans-serif" 
+        font-size="78" 
+        font-weight="900" 
+        letter-spacing="4" 
+        fill="#ffffff" 
+        filter="url(#subtle-shadow)"
+        font-style="italic">
+    FRIENDLY
+  </text>
+  
+  <!-- Subtitle Tagline below -->
+  <text x="400" y="180" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+        font-size="20" 
+        font-weight="600" 
+        letter-spacing="0.5" 
+        fill="#1e293b">
+    Unlock Your Potential with Exam Friendly Tutorials
+  </text>
+</svg>

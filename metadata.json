@@ -1,0 +1,6 @@
+{
+  "name": "ExamFriendly Examination Portal",
+  "description": "ExamFriendly Examination Portal - Institutional Examination & Proctored Evaluation System featuring Deep Sky Blue and Orange branding, anti-cheat surveillance, PDF question papers, and Image-to-PDF answer sheet tools.",
+  "requestFramePermissions": ["camera", "microphone", "display-capture"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
